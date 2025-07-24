@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #Debugging web_stack_1
-
 rm /etc/nginx/sites-enabled/default
 cd /etc/nginx/site-enabled/
 ln -s ../sites-available/default .
